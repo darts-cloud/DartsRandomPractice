@@ -1,5 +1,8 @@
-#title, #contents, #arrange_table {
-    width: 667px;
+#title, #contents, #target_table {
+    width: 375px;
+}
+#cricket {
+    width: 150px;
 }
 div {
     border: 1px solid black;
@@ -13,22 +16,17 @@ div {
 #target {
     clear: both;
 }
-#arrange_table td {
-	width:16%;
-}
 table, td, th {
     border-collapse: collapse;
     border:1px solid #333;
 }
-#arrange_table th {
-    font-size:6em;
+#target_table th {
     text-align:center;
 }
-#arrange_table td {
-    font-size:3em;
+#target_table td {
+	width:16%;
     text-align:center;
 }
 #history td {
-	width:56px;
-	font-size:2em;
+	width:33%;
 }
