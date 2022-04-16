@@ -3,27 +3,37 @@
 <html>
 	<head>
 		<title>Darts_Arrange</title>
-		<link rel="stylesheet" href="css/style.css">
-		<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-		<script src="//cdnjs.cloudflare.com/ajax/libs/jcanvas/21.0.1/min/jcanvas.min.js"></script>
+		<link rel="stylesheet" href="css/main.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jcanvas/21.0.1/min/jcanvas.min.js"></script>
 		<script src="https://darts-cloud.github.io/darts_board/release/darts_board_1.0.0.js"></script>
 		<script type="text/javascript" src="js/main.js"></script>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1">
 	</head>
 	<body>
-		<h3 id="title"></h3>
-		<div>残点数</div>
-		<select id="point"></select>
-		<div id="canvas">
-			<canvas id="cricket" width="200" height="200"></canvas>
+		<h3 id="title">DartsRandomPlactice</h3>
+		<div id="contents">
+			<div id="board">
+				<canvas id="cricket" width="458" height="458"></canvas>
+			</div>
+			<div id="history">
+				<table>
+					<tr>
+						<td>asdf</td>
+						<td>asdf</td>
+						<td>asdf</td>
+					</tr>
+				</table>
+			</div>
 		</div>
-		<br/>
-		<div>
+		<br />
+		<div id="target">
 			<table id="arrange_table" >
 				<tr>
-					<th colspan="2">No.</th>
-					<th colspan="2">Single</th>
-					<th colspan="2">Double</th>
+					<th colspan="2">20T</th>
+					<th colspan="2">15D</th>
+					<th colspan="2">16D</th>
 				</tr>
 				<tr>
 					<td>〇</td>
@@ -32,7 +42,7 @@
 					<td>×</td>
 					<td>〇</td>
 					<td>×</td>
-				</tr>				
+				</tr>
 			</table>
 		</div>
 		<br/>

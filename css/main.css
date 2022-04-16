@@ -1,0 +1,34 @@
+#title, #contents, #arrange_table {
+    width: 667px;
+}
+div {
+    border: 1px solid black;
+}
+#board {
+    float:left;
+}
+#history {
+    float:right;
+}
+#target {
+    clear: both;
+}
+#arrange_table td {
+	width:16%;
+}
+table, td, th {
+    border-collapse: collapse;
+    border:1px solid #333;
+}
+#arrange_table th {
+    font-size:6em;
+    text-align:center;
+}
+#arrange_table td {
+    font-size:3em;
+    text-align:center;
+}
+#history td {
+	width:56px;
+	font-size:2em;
+}
