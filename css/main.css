@@ -1,7 +1,11 @@
 body {
     background-color:white;
 }
-#title, #contents, #target_table {
+#title, #contents, #target_table{
+    color:black;
+    width: 375px;
+}
+#analysis {
     color:black;
     width: 375px;
 }
@@ -20,6 +24,7 @@ div {
     clear: both;
 }
 table, td, th {
+    color:black;
     border-collapse: collapse;
     border:1px solid #333;
 }

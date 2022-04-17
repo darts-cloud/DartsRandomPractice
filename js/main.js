@@ -24,7 +24,7 @@ $(function(){
             target = "DB";
         }
         $("#dart" + i).text(target);
-        db.drawColor(target, "yellow");
+        db.drawColor(target, "#DDDD33");
     }
     db.refresh();
 });
