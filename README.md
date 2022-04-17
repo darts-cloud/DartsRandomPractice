@@ -1,4 +1,4 @@
 # DartsRandomPractice
 ダーツをランダムに投げ、その命中率を分析するツールです。
 
-修正
+https://darts-cloud.github.io/DartsRandomPractice/
