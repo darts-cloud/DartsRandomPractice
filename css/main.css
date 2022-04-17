@@ -2,16 +2,12 @@
     width: 375px;
 }
 #cricket {
-    width: 150px;
 }
 div {
     border: 1px solid black;
 }
 #board {
-    float:left;
-}
-#history {
-    float:right;
+   /* float:left;*/
 }
 #target {
     clear: both;
@@ -21,12 +17,24 @@ table, td, th {
     border:1px solid #333;
 }
 #target_table th {
+	font-size:3.5em;
+	width:33%;
     text-align:center;
 }
+
 #target_table td {
+	font-size:1.5em;
 	width:16%;
     text-align:center;
 }
+
+
+
+/*
 #history td {
 	width:33%;
 }
+#history {
+    float:right;
+}
+*/

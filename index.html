@@ -10,14 +10,15 @@
 		<script type="text/javascript" src="js/main.js"></script>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 		<!--<meta name="viewport" content="width=device-width,initial-scale=1">-->
-		<meta name="viewport" content="width=360,initial-scale=1">
+		<meta name="viewport" content="width=375,initial-scale=1">
 	</head>
 	<body>
 		<h3 id="title">DartsRandomPlactice</h3>
 		<div id="contents">
 			<div id="board">
-				<canvas id="cricket"></canvas>
+				<canvas id="cricket" width="375" height="375"></canvas>
 			</div>
+<!--
 			<div id="history">
 				<table>
 					<tr>
@@ -27,14 +28,15 @@
 					</tr>
 				</table>
 			</div>
+-->
 		</div>
 		<br />
 		<div id="target">
 			<table id="target_table" >
 				<tr>
-					<th colspan="2">20T</th>
-					<th colspan="2">15D</th>
-					<th colspan="2">16D</th>
+					<th colspan="2" id="first_dart">20T</th>
+					<th colspan="2" id="second_dart">15D</th>
+					<th colspan="2" id="third_dart">16D</th>
 				</tr>
 				<tr>
 					<td>〇</td>
